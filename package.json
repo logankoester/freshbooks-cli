@@ -8,7 +8,7 @@
     "doc": "readme"
   },
   "bin": {
-    "freshbooks": "./bin/freshbooks"
+    "freshbooks": "bin/freshbooks"
   },
   "scripts": {
     "test": "grunt test"
@@ -20,7 +20,8 @@
     "url": "http://logankoester.com"
   },
   "dependencies": {
-    "helmsman": "git+https://github.com/beaugunderson/node-helmsman.git"
+    "helmsman": "git+https://github.com/beaugunderson/node-helmsman.git",
+    "freshbooks-cli-config": "~0.2.1"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
