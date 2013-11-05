@@ -1,0 +1,61 @@
+{
+  "name": "freshbooks-cli",
+  "version": "0.0.0",
+  "description": "Command-line interface to the FreshBooks API",
+  "main": "index.js",
+  "directories": {
+    "man": "man",
+    "doc": "readme"
+  },
+  "bin": {
+    "freshbooks": "./bin/freshbooks"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "preferGlobal": true,
+  "author": {
+    "name": "Logan Koester",
+    "email": "logan@logankoester.com",
+    "url": "http://logankoester.com"
+  },
+  "dependencies": {
+    "helmsman": "git+https://github.com/beaugunderson/node-helmsman.git"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-bump": "0.0.11",
+    "grunt-readme-generator": "~0.3.41",
+    "nixt": "0.0.1",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-nodeunit": "~0.2.2",
+    "marked-man": "0.0.2"
+  },
+  "keywords": [
+    "freshbooks-cli",
+    "freshbooks",
+    "invoices",
+    "timetracking",
+    "billing",
+    "stripe"
+  ],
+  "homepage": "https://github.com/logankoester/freshbooks-cli",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/logankoester/freshbooks-cli"
+  },
+  "bugs": {
+    "url": "https://github.com/logankoester/freshbooks-cli/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/logankoester/freshbooks-cli-config/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.10.0"
+  }
+}
