@@ -39,3 +39,7 @@ Copyright (c) 2013 Logan Koester
 Licensed under the MIT license.
 
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/logankoester/freshbooks-cli/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
