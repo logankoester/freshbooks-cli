@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "helmsman": "git+https://github.com/beaugunderson/node-helmsman.git",
-    "freshbooks-cli-config": "~0.2.1",
+    "freshbooks-cli-config": "~0.3.0",
     "grunt-cli": "~0.1.10",
     "bower": "~1.2.7",
     "yo": "~1.0.4",
