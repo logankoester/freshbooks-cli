@@ -2,7 +2,7 @@
 # * freshbooks-cli
 # * https://github.com/logankoester/freshbooks-cli
 # *
-# * Copyright (c) 2013 Logan Koester
+# * Copyright (c) 2013-2014 Logan Koester
 # * Licensed under the MIT license.
 #
 
